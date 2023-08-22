@@ -13,7 +13,6 @@ export default function BottomHeaderSection() {
         {/* //?  categories */}
 
         {/* //?  deals */}
-        
       </div>
       <div>
         {/* // search icon */}
