@@ -14,24 +14,23 @@ export const COMPANY_CONTACT_INFO = {
 
 // Products info
 export const CATEGORIES = [
-  { id: nanoid(), name: "men" },
-  { id: nanoid(), name: "women" },
-  { id: nanoid(), name: "children" },
-  { id: nanoid(), name: "accessories" },
+  { id: nanoid(), name: "Men", link: "/categories/men" },
+  { id: nanoid(), name: "Women", link: "/categories/women" },
+  { id: nanoid(), name: "Children", link: "/categories/children" },
+  { id: nanoid(), name: "Accessories", link: "/categories/accessories" },
 ];
 
 // Navigation Info
 export const NAV_PAGES = [
-  { id: nanoid(), name: "home" },
-  { id: nanoid(), name: "about" },
-  { id: nanoid(), name: "contact" },
-  { id: nanoid(), name: "stores" },
+  { id: nanoid(), name: "Home", link: "/" },
+  { id: nanoid(), name: "About", link: "/about" },
+  { id: nanoid(), name: "Stores", link: "/stores" },
 ];
 
 export const FOOTER_LINKS = [
-  { id: nanoid(), name: "FAQ" },
-  { id: nanoid(), name: "pages" },
-  { id: nanoid(), name: "stores" },
-  { id: nanoid(), name: "compare" },
-  { id: nanoid(), name: "cookies" },
+  { id: nanoid(), name: "FAQ", link: "/FAQ" },
+  { id: nanoid(), name: "pages", link: "/pages" },
+  { id: nanoid(), name: "stores", link: "/stores" },
+  { id: nanoid(), name: "compare", link: "/compare" },
+  { id: nanoid(), name: "cookies", link: "/cookies" },
 ];
