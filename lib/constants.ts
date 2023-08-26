@@ -1,4 +1,5 @@
-import { nanoid } from "@reduxjs/toolkit";
+import { MdOutlineHeadsetMic, MdPersonPin } from "react-icons/md";
+import { VscTag } from "react-icons/vsc";
 
 // Company Info
 export const COMPANY_CONTACT_INFO = {
@@ -14,23 +15,48 @@ export const COMPANY_CONTACT_INFO = {
 
 // Products info
 export const CATEGORIES = [
-  { id: nanoid(), name: "Men", link: "/categories/men" },
-  { id: nanoid(), name: "Women", link: "/categories/women" },
-  { id: nanoid(), name: "Children", link: "/categories/children" },
-  { id: nanoid(), name: "Accessories", link: "/categories/accessories" },
+  { id: 1, name: "Men", link: "/categories/men" },
+  { id: 2, name: "Women", link: "/categories/women" },
+  { id: 3, name: "Children", link: "/categories/children" },
+  { id: 4, name: "Accessories", link: "/categories/accessories" },
 ];
 
 // Navigation Info
 export const NAV_PAGES = [
-  { id: nanoid(), name: "Home", link: "/" },
-  { id: nanoid(), name: "About", link: "/about" },
-  { id: nanoid(), name: "Stores", link: "/stores" },
+  { id: 1, name: "Home", link: "/" },
+  { id: 2, name: "About", link: "/about" },
+  { id: 3, name: "Stores", link: "/stores" },
 ];
 
 export const FOOTER_LINKS = [
-  { id: nanoid(), name: "FAQ", link: "/FAQ" },
-  { id: nanoid(), name: "pages", link: "/pages" },
-  { id: nanoid(), name: "stores", link: "/stores" },
-  { id: nanoid(), name: "compare", link: "/compare" },
-  { id: nanoid(), name: "cookies", link: "/cookies" },
+  { id: 1, name: "FAQ", link: "/FAQ" },
+  { id: 2, name: "pages", link: "/pages" },
+  { id: 3, name: "stores", link: "/stores" },
+  { id: 4, name: "compare", link: "/compare" },
+  { id: 5, name: "cookies", link: "/cookies" },
+];
+
+// Footer
+export const COMPANY_SERVICES = [
+  {
+    id: 1,
+    icon: MdOutlineHeadsetMic,
+    title: "Product Support",
+    description:
+      "Up to 3 years on-site warranty available for your peace of mind.",
+  },
+  {
+    id: 2,
+    icon: MdPersonPin,
+    title: "Personal Account",
+    description:
+      "With big discounts, free delivery and a dedicated support specialist.",
+  },
+  {
+    id: 3,
+    icon: VscTag,
+    title: "Amazing Savings",
+    description:
+      "Up to 70% off new Products, you can be sure of the best price.",
+  },
 ];
