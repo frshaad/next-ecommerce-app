@@ -1,13 +1,13 @@
 import { COMPANY_SERVICES } from "@/lib/constants";
 
 const CompanyServices = () => (
-  <ul className="flex flex-col items-center gap-5 md:flex-row md:justify-between">
+  <ul className="flex flex-col items-center gap-5 md:flex-row md:items-start md:justify-between">
     {COMPANY_SERVICES.map((service) => (
       <li
         key={service.id}
         className="flex max-w-[265px] flex-col items-center gap-1 text-center md:max-w-full"
       >
-        <div className="mb-1 rounded-full bg-darkerBlue p-3 text-xl text-white">
+        <div className="mb-2 rounded-full bg-darkerBlue p-3 text-xl text-white">
           <service.icon />
         </div>
         <h3 className="text-sm font-bold">{service.title}</h3>

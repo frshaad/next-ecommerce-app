@@ -17,11 +17,13 @@ const config: Config = {
         lighterGray: "#CACDD8",
         primaryBrick: "#C94D3F",
         primaryGreen: "#78A962",
+        primaryYellow: "#FFB800",
       },
       boxShadow: {
         primaryShadow: "0 5px 15px 0 rgba(0, 0, 0, 0.14)",
         softShadow: "0 4px 200px 0 rgba(0, 0, 0, 0.18)",
         hardShadow: "0 1px 4px 0 rgba(0, 0, 0, 0.17)",
+        buttonShadow: "0 4px 4px 0 rgba(0, 0, 0, 0.25)",
       },
       fontSize: {
         xxs: "10px",

@@ -11,11 +11,6 @@ export default function ShopContactInfoButton() {
 
   const handleInfoPopup = () => {
     setIsPopupOpen(!isPopupOpen);
-    // if (isPopupOpen) {
-    //   console.log("PopUp is open now");
-    // } else {
-    //   console.log("PopUp is closed");
-    // }
   };
 
   return (

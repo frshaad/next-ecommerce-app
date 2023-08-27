@@ -8,7 +8,7 @@ export default function TopHeaderSection() {
   const { phoneNumber, showroomAddress } = COMPANY_CONTACT_INFO;
 
   return (
-    <section className="mx-auto flex justify-between bg-[#020202] px-4 py-3 text-white  lg:px-10 xl:px-52">
+    <section className="mx-auto flex justify-between bg-[#020202] px-4 py-3 text-white lg:px-10 2xl:px-52">
       <ShopContactInfoButton />
       <div className="hidden items-center gap-2 text-xs font-semibold text-[#acacac] lg:flex">
         <p>{showroomAddress}</p>

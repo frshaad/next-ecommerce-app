@@ -1,8 +1,6 @@
-"use client";
-
 export default function BottomFooterSection() {
   return (
-    <section className="mx-auto flex justify-between bg-[#020202] px-4 py-3 text-white  lg:px-10 xl:px-52">
+    <section className="mx-auto flex justify-between bg-[#020202] px-4 py-3 text-white lg:px-10 2xl:px-52">
       {/* Newsletter */}
       <article className="flex flex-col gap-4">
         <div className="text-center">
